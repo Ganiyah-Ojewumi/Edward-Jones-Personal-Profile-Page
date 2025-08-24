@@ -1,0 +1,31 @@
+body{
+    background:rgb(75, 45, 75);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+}
+h1{
+    color: white;
+    margin-bottom: 26px;
+    margin-top: 68px;
+    font-size: 49px;
+}
+.subname{
+    font-size: 21px;
+    color: rgb(231, 231, 231);
+    font-weight: 500;
+}
+.first{
+    background-color: rgb(231, 231, 231);
+    margin-top: 62px;
+    display: grid;
+    grid-template-columns:1fr;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    gap: 50px;
+}

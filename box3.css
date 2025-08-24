@@ -1,0 +1,95 @@
+
+.inner3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;    
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+}
+.inner31{
+    text-align: left;
+    text-align: justify;
+}
+.heading{
+    text-align: center;
+    margin-top: -5px;
+    line-height: 20px;
+}
+.inner32{
+    margin-top: 2px;
+    text-align: left;
+    background-color: rgb(247, 238, 247);
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.inner33{
+    text-align: left;
+    background-color: rgb(247, 238, 247);
+    height: auto;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 35px;
+    margin-top: 10px;
+}
+
+.sidediv{
+    display: flex;
+    flex-direction:column;
+}
+.cover{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+@media (max-width:768px) {
+    .cover{
+        grid-template-columns: 1fr;
+    }
+}
+form{
+    padding-top: 20px;
+}
+input{
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid rgb(247, 215, 247);
+    outline: none;
+    width: 100%;
+    margin-top: 7px;
+}
+input:focus{
+    border: 2px solid rgb(231, 101, 231);
+}
+textarea{
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgb(247, 215, 247);
+    outline: none;
+    margin-top: 7px;
+}
+textarea:focus{
+    border: 2px solid rgb(231, 101, 231);
+
+}
+button{
+    width: 102%;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(216, 167, 216);
+    border: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(231, 101, 231);
+}
+
