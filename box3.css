@@ -21,9 +21,10 @@
     margin-top: 2px;
     text-align: left;
     background-color: rgb(247, 238, 247);
-    height: 150px;
+    height: auto;
     padding-left: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 10px;
 }
 .inner33{
@@ -92,4 +93,5 @@ button{
 button:hover{
     background-color: rgb(231, 101, 231);
 }
+
 
